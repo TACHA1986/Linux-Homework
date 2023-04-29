@@ -1,0 +1,5 @@
+#!/bin/bash
+touch /tmp/Tatsiana_Kellermann.txt
+echo "Date is: $(date +'%D')" >> /tmp/Tatsiana_Kellermann.txt
+cat /etc/group | tail -3 | sed 's/user/Tatsiana/g' tmp/Tatsiana_Kellermann.txt
+echo "done"
